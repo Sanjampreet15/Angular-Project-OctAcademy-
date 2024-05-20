@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { NavbarComponent } from './navbar/navbar-component';
-
+// import { PostComponent } from './post/post.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -18,8 +18,9 @@ import { NavbarComponent } from './navbar/navbar-component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
+    // PostComponent,
     NavbarComponent,
-  ],
+    ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
