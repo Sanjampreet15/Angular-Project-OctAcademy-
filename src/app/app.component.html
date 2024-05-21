@@ -1,12 +1,10 @@
 <app-top-bar></app-top-bar>
-<app-navbar></app-navbar>
-<app-post></app-post>
+<p>{{message}}</p>
+
+<app-navbar [fromParent]='parentMessage'></app-navbar>
+<app-post-list [fromParent]='parentmessage1'></app-post-list>
+
 <div class="container">
   <router-outlet></router-outlet>
 </div>
 
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->
