@@ -1,2 +1,13 @@
 h1{ color: red;
     font-size : 20px;}
+    h6{
+        color:blueviolet;
+    }
+img{
+    height: 100px;
+    margin-left: 10px;
+}
+
+.myclass{
+    color: aquamarine;
+}

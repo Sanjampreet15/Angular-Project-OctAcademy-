@@ -1,3 +1,14 @@
 <h1>navbar</h1>
-  <p> I am a software engineer</p>
-  <h3>{{fromParent}}</h3>
+<!--class binding-->
+  <p [class.myclass] ="bool"> I am a software engineer</p>
+
+  <!--style binding-->
+  <h3 [style.color] ="bool ? 'magenta' : 'red'" >{{fromParent}}</h3>
+  
+  <!-- string interpolation-->
+  <h6>{{message}} {{1+2}}</h6>
+
+  <!--Property binding to show  img-->
+  <img [src]="imgUrl" alt="">
+
+  

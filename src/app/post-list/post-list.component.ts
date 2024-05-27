@@ -9,6 +9,7 @@ import { Component, Input, Output, EventEmitter} from '@angular/core';
 })
 export class PostListComponent {
 
+  
 
  childMessage:string ='passing data from child to parent';
  outputChildMessage:string='msg from child via o/p';
@@ -22,5 +23,6 @@ export class PostListComponent {
 
  sendMessage(){
   console.log('click');
+  this.messageEvent.emit(this.outputChildMessage);
  }
 }
